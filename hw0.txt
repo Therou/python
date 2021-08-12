@@ -1,0 +1,4 @@
+1 Python 3 installed by default on Debian 10
+2 I use Vim
+3 Git is installed
+4 This repo is for python tasks
