@@ -5,7 +5,7 @@ def bin_convert(n):
     binary = bin1[2:]
     return binary
 
-def palin(string):
+def palindr(string):
     reverse_string = string[::-1]
     if reverse_string == string:
         return True
@@ -13,9 +13,9 @@ def palin(string):
         return False
 
 for i in range(0,1000000):
-    val = palin(str(i))
+    val = palindr(str(i))
     binary = bin_convert(i)
-    val2 = palin(str(binary))
+    val2 = palindr(str(binary))
     if val == True and val2 == True:
         total = total + i
 

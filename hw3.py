@@ -1,7 +1,20 @@
-input_text = input('Enter a string: ')
-input_dict = {}
-for word in input_text.split():
-    input_dict[word] = input_dict.get(word,0) + 1
+while True:
+    input_list = input('enter text: ').split()
 
-for key in sorted(input_dict):
-    print('{} : {}'.format(key,input_dict[key]))
+    input_list.sort()
+
+    d = {}
+
+    for word in input_list:
+        d[word] = d.get(word, 0) + 1
+
+    input_list_second = []
+
+    for i in d.values():
+        input_list_second.append(i)
+
+    input_list_second.sort()
+
+    for k, v in d.items():
+        if v == max(input_list_second):
+            print(v, k)
