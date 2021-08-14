@@ -10,8 +10,8 @@
 - zero decimal `0`<br />
 - zero fraction `(0, 1)`<br />
 - zero complex `0j`<br />
-- constant `False` and `None`<br />
-  True values:<br />
+- constants `False` and `None`<br />
+True values:<br />
 - objects<br />
 - non-empty sequences and collections - lists, tuples, strings, dictionaries, sets<br />
 - numeric values that aint zero<br />
