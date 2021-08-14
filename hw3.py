@@ -1,5 +1,5 @@
 while True:
-    input_list = input('enter text: ').split()
+    input_list = input('enter text: ').lower().split()
 
     input_list.sort()
 
