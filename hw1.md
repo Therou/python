@@ -1,5 +1,4 @@
-1 False values:<br />
-- empty lists `[]`<br />
+1 False values:<br />- empty lists `[]`<br />
 - empty tuples `()`<br />
 - empty dictionaries `{}`<br />
 - empty sets `set()`<br />
@@ -11,7 +10,9 @@
 - zero fraction `(0, 1)`<br />
 - zero complex `0j`<br />
 - constants `False` and `None`<br />
-True values:<br />
+
+  True values:<br />
+
 - objects<br />
 - non-empty sequences and collections - lists, tuples, strings, dictionaries, sets<br />
 - numeric values that aint zero<br />
