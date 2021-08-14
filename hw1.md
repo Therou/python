@@ -13,7 +13,7 @@
  - zero complex `0j`<br />
  - constants `False` and `None`<br />
 
-  True values:<br />
+   True values:<br />
 
  - objects<br />
  - non-empty sequences and collections - lists, tuples, strings, dictionaries, sets<br />
